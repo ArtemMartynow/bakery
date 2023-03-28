@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: burlywood;
 }
 
 a {
@@ -19,6 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 16px 171px 6px 170px;
+    background: RGBA(86, 83, 76, 0.5294117647058824);
 }
 
 .nav-link {
