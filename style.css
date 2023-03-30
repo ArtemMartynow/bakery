@@ -36,6 +36,10 @@ header {
     height: 18px;
 }
 
+.networks img {
+    cursor: pointer;
+}
+
 #twitter {
     height: 13px;
     width: 16px;
