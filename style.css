@@ -64,3 +64,52 @@ header {
     height: 16px;
     width: 14px;
 }
+
+/* home-page */
+
+.home-page {
+    background: url(./images/img.png);
+    background-position: center;
+    padding-top: 284px;
+    padding-bottom: 215px;
+}
+
+.home-page-content {
+    text-align: center;
+}
+
+.home-page-content h1 {
+    font-size: 92px;
+    color: #fff;
+    line-height: 92px;
+    font-weight: bold;
+    padding-bottom: 55px;
+}
+
+.home-page-content p {
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    width: 544px;
+    text-align: center;
+    height: 56px;
+    line-height: 31px;
+    margin: 0 auto;
+    padding: 65px 0;
+}
+
+.home-page-content button {
+    border: 1px solid #79756D;
+    width: 201px;
+    height: 51px;
+    font-size: 16px;
+    font-family: 'Alegreya SC', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border-style: dashed;
+    background: RGBA(86, 83, 76, 0.5294117647058824);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
