@@ -421,3 +421,179 @@ header {
 .tasty-pancakes-ready-in img {
     margin-top: 35px;
 }
+
+/* breakfast */
+
+.breakfast {
+    background: url(./images/placeholder\(1\).jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 89px 210px 71px 372px;
+}
+
+/* breakfast-content */
+
+.breakfast-content {
+    color: #fff;
+    width: 310px;
+}
+
+.breakfast-content h2 {
+    font-size: 60px;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+
+.breakfast-content h3 {
+    color: #C8A593;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    line-height: 17px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 66px;
+}
+
+/* breakfast-content-description */
+
+.breakfast-content-description {
+    width: 310px;
+    text-align: center;
+    height: 112px;
+}
+
+.breakfast-content-description h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: none;
+    line-height: 27px;
+    margin: 0;
+}
+
+.breakfast-content-description p {
+    color: #abaaaf;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+    line-height: 17px;
+    margin-top: 11px;
+    margin-bottom: 27px;
+}
+
+.wings {
+    filter: brightness(0) invert(1);
+    margin: 0 auto;
+    width: 105px;
+    height: 27px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+}
+
+/* menu */
+
+.menu {
+    position: relative;
+    width: 468px;
+}
+
+.menu-list {
+    width: 440px;
+    height: 600px;
+    background: #F3F1E9;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.menu-border {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    width: 419px;
+    height: 580px;
+    border: 1px solid RGBA(158, 156, 147, 1);
+    border-style: dashed;
+}
+
+#menu-list-head {
+    width: 368px;
+    height: 83px;
+    margin-top: 45px;
+    margin-bottom: 76px;
+}
+
+.menu-list h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    width: 331px;
+    color: #56534C;
+    font-size: 46px;
+    margin: 0 auto;
+    line-height: 51px; 
+}
+
+.menu-list p {
+    font-size: 14px;
+    width: 327px;
+    font-family: 'Prompt', sans-serif;
+    color: #56534C;
+    margin: 0 auto;
+    line-height: 32px;
+    padding-top: 31px;
+    padding-bottom: 36px;
+}
+
+.menu-list button {
+    width: 191px;
+    height: 51px;
+    border: 1px solid rgba(158, 156, 147, 1);
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #A47D5E;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+}
+
+.menu-list-second {
+    width: 402px;
+    height: 548px;
+    position: absolute;
+    top: 4%;
+    left: 11%;
+    z-index: 1;
+}
+
+.menu-list-second .menu-border {
+    width: 386px;
+    height: 530px;
+}
+
+.menu-list-third {
+    width: 367px;
+    height: 501px;
+    position: absolute;
+    top: 8%;
+    left: 21%;
+    z-index: 0;
+}
+
+.menu-list-third .menu-border {
+    width: 351px;
+    height: 485px;
+}
+
+#spikelet {
+    top: 76%;
+    left: 64%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
