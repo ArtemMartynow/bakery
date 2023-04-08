@@ -597,3 +597,171 @@ header {
     z-index: 0;
     opacity: 0.1;
 }
+
+/* jibarito-sandwitch */
+
+.jibarito-sandwitch {
+    position: relative;
+    font-family: 'Alegreya', serif;
+    background: #F3F1E9;
+    padding: 95px 170px 18px 170px;
+}
+
+.jibarito-sandwitch img {
+    position: absolute;
+    left: calc(50% - 353px);
+    top: 0;
+}
+
+.jibarito-sandwitch h2 {
+    font-size: 48px;
+    color: #57544D;
+    letter-spacing: 1px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jibarito-sandwitch p {
+    color: #AE8D73;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+/* jibarito-sandwitch-content */
+
+.jibarito-sandwitch-content  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ingredients {
+    height: 740px;
+    width: 290px;
+}
+
+.ingredient {
+    position: relative;
+    text-align: center;
+    margin-bottom: 56px;
+    height: 208px;
+}
+
+.ingredient img {
+    height: 102px;
+    width: 102px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.ingredient h3 {
+    color: #A47D5E;
+    font-size: 30px;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    line-height: 29px;
+}
+
+.ingredient p {
+    color: #56534C;
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    text-transform: none;
+}
+
+/* jibarito-sandwitch-menu */
+
+.jibarito-sandwitch-menu {
+    text-align: center;
+    position: relative;
+    width: 870px;
+    height: 602px;
+    text-align: end;    
+}
+
+.jibarito-sandwitch-menu img {
+    position: relative;
+    top: 23px;
+    left: 0;
+    border: 10px solid #fff;
+    width: 822px;
+    height: 537px;
+}
+
+.jibarito-sandwitch-menu button {
+    width: 171px;
+    height: 60px;
+    border: 1px solid #DFC691;
+    font-size: 18px;
+    color: #DFC691;
+    background: #fff;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.prep-cook-ready {
+    width: 202px;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+
+.prep {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    opacity: 0.8;
+}
+
+.prep img {
+    width: 51px;
+    height: 102px;
+    border: none;
+}
+
+.cook {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    opacity: 0.8;
+}
+
+.cook img {
+    width: 56px;
+    height: 102px;
+    border: none;
+}
+
+.ready {
+    width: 202px;
+    height: 202px;
+    background: url(./images/Vektor-Smartobj\(6\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.ready img {
+    width: 93px;
+    height: 132px;
+    border: none;
+}
