@@ -765,3 +765,51 @@ header {
     height: 132px;
     border: none;
 }
+
+/* footer */
+
+footer {
+    background: #F3F1E9;
+    display: flex;
+    align-items: end;
+    height: 73px;
+    justify-content: space-between;
+    padding: 97px 170px 70px 170px;
+}
+
+.footer-nav {
+    color: #56534C;
+    display: flex;
+    justify-content: space-between;
+    width: 437px;
+    padding: 30px 39px;
+    font-family: 'Alegreya', serif;
+    border: 1px solid #CAC6C1;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+}
+
+.footer-nav-right {
+    padding: 30px 47px;
+    width: 421px;
+}
+
+.footer-nav a {
+    color: #56534C;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-nav span {
+    line-height: 3px;
+}
+
+footer img {
+    filter: brightness(0.1);
+    height: 44px;
+    width: 140px;
+    margin-bottom: 3px;
+}
