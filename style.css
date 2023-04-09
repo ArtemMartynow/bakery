@@ -81,6 +81,7 @@ header {
 
 .home-page-content {
     text-align: center;
+    height: 403px;
 }
 
 .home-page-content h1 {
@@ -117,6 +118,28 @@ header {
     background: RGBA(86, 83, 76, 0.5294117647058824);
     letter-spacing: 2px;
     cursor: pointer;
+}
+
+.button-animate {
+    animation-name: btn-click;
+    animation-duration: 0.5s;
+    transition: all 0.2s;
+}
+
+@keyframes btn-click {
+    0% {
+        width: 201px;
+        height: 51px;
+    }
+    50% {
+        width: 181px;
+        height: 31px;
+        margin-top: 10px;
+    }
+    100% {
+        width: 201px;
+        height: 51px;
+    }
 }
 
 /* art-of-cakes */
