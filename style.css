@@ -122,8 +122,7 @@ header {
 
 .button-animate {
     animation-name: btn-click;
-    animation-duration: 0.5s;
-    transition: all 0.2s;
+    animation-duration: 0.3s;
 }
 
 @keyframes btn-click {
@@ -132,9 +131,9 @@ header {
         height: 51px;
     }
     50% {
-        width: 181px;
-        height: 31px;
-        margin-top: 10px;
+        width: 191px;
+        height: 41px;
+        margin-top: 5px;
     }
     100% {
         width: 201px;
