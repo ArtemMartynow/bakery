@@ -2,10 +2,10 @@ let homeBtn = document.getElementById('home-page-btn')
 
 homeBtn.addEventListener('click', function(){
     homeBtn.className = 'button-animate'
-    setTimeout(asd, 400)
+    setTimeout(removeClass, 400)
 })
 
-function asd() {
+function removeClass() {
     homeBtn.removeAttribute('class')
 }
 
