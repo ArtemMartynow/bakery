@@ -582,6 +582,14 @@ header {
     color: #A47D5E;
     font-family: 'Alegreya', serif;
     font-weight: 700;
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s;
+}
+
+.menu-list button:hover {
+    background: #A47D5E;
+    color: #fff;
 }
 
 .menu-list-second {
