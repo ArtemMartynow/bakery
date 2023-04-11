@@ -1,3 +1,5 @@
+// add animation on btn
+
 let homeBtn = document.getElementById('home-page-btn')
 
 homeBtn.addEventListener('click', function(){
@@ -9,6 +11,7 @@ function removeClass() {
     homeBtn.removeAttribute('class')
 }
 
+// slider
 
 let leftBtnSlider = document.getElementById('tasty-pancakes-content-slider-left-btn')
 let rightBtnSlider = document.getElementById('tasty-pancakes-content-slider-right-btn')
