@@ -337,6 +337,14 @@ header {
     display: flex;
 }
 
+#mill {
+    position: absolute;
+    top: 47%;
+    right: 24%;
+    z-index: 0;
+    filter: opacity(0.5);
+}
+
 /* tasty-pancakes-content-left */
 
 .tasty-pancakes-content-left {
@@ -397,6 +405,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .tasty-pancakes-content-slider img {
